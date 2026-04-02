@@ -3,8 +3,8 @@ site_description: Guida completa al lavoro quotidiano e alle competenze di un An
 site_author: Massim Mori
 site_url: https://gmorimac-droid.github.io/analista-di-sistema/
 
-repo_name: gmorimac-droid/analista-di-sistema
-repo_url: https://github.com/gmorimac-droid/analista-di-sistema
+#repo_name: gmorimac-droid/analista-di-sistema
+#repo_url: https://github.com/gmorimac-droid/analista-di-sistema
 
 theme:
   name: material
