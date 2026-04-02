@@ -16,9 +16,9 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-    - content.code.copy
-    - content.action.edit
-    - content.action.view
+#    - content.code.copy
+#    - content.action.edit
+#    - content.action.view
   palette:
     - scheme: default
       primary: blue
