@@ -143,10 +143,10 @@ nav:
 
   - Casi pratici:
       - Panoramica: 12-casi-pratici/index.md
-      - Caso: richiesta evolutiva: 12-casi-pratici/caso-richiesta-evolutiva.md
-      - Caso: integrazione sistemi: 12-casi-pratici/caso-integrazione-sistemi.md
-      - Caso: migrazione: 12-casi-pratici/caso-migrazione.md
-      - Caso: gestione anomalia: 12-casi-pratici/caso-gestione-anomalia.md
+      - "Caso: richiesta evolutiva": 12-casi-pratici/caso-richiesta-evolutiva.md
+      - "Caso: integrazione sistemi": 12-casi-pratici/caso-integrazione-sistemi.md
+      - "Caso: migrazione": 12-casi-pratici/caso-migrazione.md
+      - "Caso: gestione anomalia": 12-casi-pratici/caso-gestione-anomalia.md
 
   - Crescita professionale:
       - Panoramica: 13-crescita-professionale/index.md
