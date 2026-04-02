@@ -1,0 +1,162 @@
+site_name: Analista di Sistema
+site_description: Guida completa al lavoro quotidiano e alle competenze di un Analista di Sistema
+site_author: Massim Mori
+site_url: https://gmorimac-droid.github.io/analista-di-sistema/
+
+repo_name: gmorimac-droid/analista-di-sistema
+repo_url: https://github.com/gmorimac-droid/analista-di-sistema
+
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Passa al tema scuro
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Passa al tema chiaro
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gmorimac-droid
+
+copyright: Copyright © 2026
+
+nav:
+  - Home: index.md
+
+  - Introduzione:
+      - Panoramica: 01-introduzione/index.md
+      - Ruolo dell'Analista di Sistema: 01-introduzione/ruolo-analista-di-sistema.md
+      - Contesto organizzativo: 01-introduzione/contesto-organizzativo.md
+      - Differenze con altri ruoli: 01-introduzione/differenze-con-altri-ruoli.md
+
+  - Lavoro quotidiano:
+      - Panoramica: 02-lavoro-quotidiano/index.md
+      - Giornata tipo: 02-lavoro-quotidiano/giornata-tipo.md
+      - Attività ricorrenti: 02-lavoro-quotidiano/attivita-ricorrenti.md
+      - Gestione richieste: 02-lavoro-quotidiano/gestione-richieste.md
+      - Problemi frequenti: 02-lavoro-quotidiano/problemi-frequenti.md
+
+  - Competenze:
+      - Panoramica: 03-competenze/index.md
+      - Competenze analitiche: 03-competenze/competenze-analitiche.md
+      - Competenze tecniche: 03-competenze/competenze-tecniche.md
+      - Competenze metodologiche: 03-competenze/competenze-metodologiche.md
+      - Soft skills: 03-competenze/soft-skills.md
+
+  - Requisiti:
+      - Panoramica: 04-requisiti/index.md
+      - Raccolta requisiti: 04-requisiti/raccolta-requisiti.md
+      - Classificazione requisiti: 04-requisiti/classificazione-requisiti.md
+      - Criteri di accettazione: 04-requisiti/criteri-accettazione.md
+      - Gestione ambiguità: 04-requisiti/gestione-ambiguita.md
+
+  - Modellazione:
+      - Panoramica: 05-modellazione/index.md
+      - AS-IS e TO-BE: 05-modellazione/as-is-to-be.md
+      - Use case: 05-modellazione/use-case.md
+      - Flussi informativi: 05-modellazione/flussi-informativi.md
+      - Modello dati ad alto livello: 05-modellazione/modello-dati-alto-livello.md
+
+  - Architettura:
+      - Panoramica: 06-architettura/index.md
+      - Architettura logica: 06-architettura/architettura-logica.md
+      - Integrazioni: 06-architettura/integrazioni.md
+      - Sistemi legacy: 06-architettura/sistemi-legacy.md
+      - Dipendenze applicative: 06-architettura/dipendenze-applicative.md
+
+  - Qualità e rischi:
+      - Panoramica: 07-qualita-e-rischi/index.md
+      - Requisiti non funzionali: 07-qualita-e-rischi/requisiti-non-funzionali.md
+      - Sicurezza: 07-qualita-e-rischi/sicurezza.md
+      - Performance e scalabilità: 07-qualita-e-rischi/performance-scalabilita.md
+      - Analisi del rischio: 07-qualita-e-rischi/analisi-rischio.md
+
+  - Documentazione:
+      - Panoramica: 08-documentazione/index.md
+      - Deliverable: 08-documentazione/deliverable.md
+      - Specifica funzionale: 08-documentazione/specifica-funzionale.md
+      - Specifica tecnica: 08-documentazione/specifica-tecnica.md
+      - Tracciabilità: 08-documentazione/tracciabilita.md
+      - Standard documentali: 08-documentazione/standard-documentali.md
+
+  - Collaborazione:
+      - Panoramica: 09-collaborazione/index.md
+      - Stakeholder: 09-collaborazione/stakeholder.md
+      - Team IT: 09-collaborazione/team-it.md
+      - Governance: 09-collaborazione/governance.md
+      - Gestione conflitti: 09-collaborazione/gestione-conflitti.md
+
+  - Metodologie:
+      - Panoramica: 10-metodologie/index.md
+      - Waterfall: 10-metodologie/waterfall.md
+      - Agile: 10-metodologie/agile.md
+      - Approcci ibridi: 10-metodologie/approcci-ibridi.md
+      - Backlog e prioritizzazione: 10-metodologie/backlog-e-prioritizzazione.md
+
+  - Strumenti:
+      - Panoramica: 11-strumenti/index.md
+      - Strumenti di analisi: 11-strumenti/strumenti-analisi.md
+      - Documentazione e wiki: 11-strumenti/documentazione-e-wiki.md
+      - GitHub e versioning: 11-strumenti/github-e-versioning.md
+      - Strumenti per diagrammi: 11-strumenti/strumenti-diagrammi.md
+      - API e database: 11-strumenti/api-e-database.md
+
+  - Casi pratici:
+      - Panoramica: 12-casi-pratici/index.md
+      - Caso: richiesta evolutiva: 12-casi-pratici/caso-richiesta-evolutiva.md
+      - Caso: integrazione sistemi: 12-casi-pratici/caso-integrazione-sistemi.md
+      - Caso: migrazione: 12-casi-pratici/caso-migrazione.md
+      - Caso: gestione anomalia: 12-casi-pratici/caso-gestione-anomalia.md
+
+  - Crescita professionale:
+      - Panoramica: 13-crescita-professionale/index.md
+      - Junior, Mid, Senior: 13-crescita-professionale/junior-mid-senior.md
+      - Roadmap di crescita: 13-crescita-professionale/roadmap-crescita.md
+      - Errori comuni: 13-crescita-professionale/errori-comuni.md
+      - Evoluzione di carriera: 13-crescita-professionale/evoluzione-carriera.md
+
+  - Appendix:
+      - Glossario: appendix/glossario.md
+      - FAQ: appendix/faq.md
+      - Template: appendix/template.md
+      - Bibliografia: appendix/bibliografia.md
