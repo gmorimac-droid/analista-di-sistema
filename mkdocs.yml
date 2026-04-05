@@ -32,6 +32,10 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Passa al tema chiaro
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/logo.png
+  favicon: assets/favicon.png
 
 markdown_extensions:
   - admonition
